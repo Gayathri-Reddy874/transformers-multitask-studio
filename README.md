@@ -25,6 +25,7 @@ instead of a raw traceback.
 - [Testing](#testing)
 - [Logging & observability](#logging--observability)
 - [Known limitations](#known-limitations)
+- [Author](#author)
 - [License](#license)
 
 ---
@@ -104,8 +105,8 @@ directly — it only calls `engine.run_*()` and renders the result.
 ### 1. Clone the repo and create a virtual environment
 
 ```bash
-git clone https://github.com/Gayathri-Reddy874/transformers-multitask-studio.git
-cd transformers-multitask-studio
+git clone <your-repo-url>
+cd transformer-playground
 python3 -m venv aienv
 source aienv/bin/activate   # Windows: aienv\Scripts\activate
 ```
@@ -250,7 +251,14 @@ exposing internals in the UI.
 
 ---
 
+## Author
+
+**Mallareddygari Gayathri**
+
+GitHub: [@Gayathri-Reddy874](https://github.com/Gayathri-Reddy874)
+
+---
+
 ## License
 
-No license file is included — add one (MIT, Apache-2.0, etc.) appropriate
-to your use case before distributing.
+This project is licensed under the [MIT License](LICENSE).
