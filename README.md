@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-unlicensed-lightgrey)
 
 An industrial-grade Streamlit application exposing seven Hugging Face
-Transformers tasks - text, vision, and speech — through a single, well
+Transformers tasks - text, vision, and speech - through a single, well
 structured web UI. Models load lazily and are cached, every input is
 validated, and every model error is caught and shown as a clean message
 instead of a raw traceback.
