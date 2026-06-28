@@ -96,7 +96,7 @@ transformer-playground/
 `core/utils.py` has zero dependency on Streamlit, PyTorch, or Transformers,
 so its validation logic is fully unit testable in milliseconds. `core/engine.py`
 owns every model and every inference call, so `app.py` never touches a model
-directly — it only calls `engine.run_*()` and renders the result.
+directly - it only calls `engine.run_*()` and renders the result.
 
 ---
 
@@ -105,8 +105,8 @@ directly — it only calls `engine.run_*()` and renders the result.
 ### 1. Clone the repo and create a virtual environment
 
 ```bash
-git clone <your-repo-url>
-cd transformer-playground
+git clone https://github.com/Gayathri-Reddy874/transformers-multitask-studio.git
+cd transformers-multitask-studio
 python3 -m venv aienv
 source aienv/bin/activate   # Windows: aienv\Scripts\activate
 ```
