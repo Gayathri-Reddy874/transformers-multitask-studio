@@ -123,7 +123,7 @@ pip install -r requirements.txt
 ### 3. Install `ffmpeg` (required for Automatic Speech Recognition)
 
 The Transformers ASR pipeline shells out to the `ffmpeg` binary to decode
-uploaded `mp3`/`m4a`/`flac` files into raw audio — this is a **system**
+uploaded `mp3`/`m4a`/`flac` files into raw audio - this is a **system**
 dependency, not a Python package.
 
 ```bash
