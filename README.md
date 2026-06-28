@@ -224,7 +224,7 @@ pytest tests/ -v
 ```
 
 The test suite covers all input validation in `core/utils.py` and runs
-without loading any ML model — no GPU, no network, no multi-second model
+without loading any ML model - no GPU, no network, no multi-second model
 downloads.
 
 ---
@@ -234,7 +234,7 @@ downloads.
 All model loads and inference calls are logged via the standard `logging`
 module (`core/config.py` configures format and level). Every caught
 inference error is logged with its full traceback before a sanitized
-message is shown to the user — so you can debug from logs without ever
+message is shown to the user - so you can debug from logs without ever
 exposing internals in the UI.
 
 ---
