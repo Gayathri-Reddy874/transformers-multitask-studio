@@ -112,7 +112,7 @@ source aienv/bin/activate   # Windows: aienv\Scripts\activate
 ```
 
 > Use whatever environment name and tool you prefer (`venv`, `conda`,
-> `virtualenv`) — just make sure it's listed in `.gitignore` before pushing.
+> `virtualenv`) - just make sure it's listed in `.gitignore` before pushing.
 
 ### 2. Install dependencies
 
