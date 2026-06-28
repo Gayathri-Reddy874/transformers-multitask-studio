@@ -46,8 +46,8 @@ Plus, under the hood:
 
 - **Lazy, cached model loading** - each model loads only the first time its task is used, then stays cached for the life of the server process.
 - **Input validation** - empty text, oversized images/audio, and corrupt files are rejected with a friendly warning before any model runs.
-- **Robust error handling** — failures are logged with full tracebacks for you, while the UI only ever shows a clean, sanitized message.
-- **Environment-variable configuration** — swap any of the 7 models or 4 limits without touching code.
+- **Robust error handling** - failures are logged with full tracebacks for you, while the UI only ever shows a clean, sanitized message.
+- **Environment-variable configuration** - swap any of the 7 models or 4 limits without touching code.
 - **Per-result downloads** (JSON/text), a recent-activity log, and live CPU/GPU device status in the sidebar.
 - **Unit tested** — `pytest` coverage for all input validation, no model downloads required to run the suite.
 - **Container-ready** — `Dockerfile` includes the system `ffmpeg` dependency the ASR pipeline needs.
